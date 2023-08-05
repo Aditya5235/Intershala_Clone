@@ -1,0 +1,272 @@
+ .box-text1 {
+     background-color: rgba(225, 212, 212, 0.31);
+     border: 2px solid rgba(225, 216, 216, 0.5);
+
+ }
+
+ .internship-box-m p {
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     margin: 0 10px;
+ }
+
+ .box-main {
+     height: 250px;
+     width: 400px;
+     object-fit: cover;
+     backdrop-filter: blur(10px);
+ }
+
+ .button {
+     padding: 10px;
+     margin-top: 10px;
+     background-color: rgba(82, 82, 235, 0.7);
+     transition: 0.2s ease-in-out;
+ }
+
+ .button:hover {
+     background-color: rgb(8, 8, 235);
+     color: aliceblue;
+ }
+
+ .box-text2 {
+     color: rgb(238, 231, 231);
+ }
+
+ .categories {
+     border-width: 2px;
+     border-color: rgb(153, 199, 231);
+     padding: 2px 8px;
+     border-radius: 10px;
+     transition: 0.2s ease-in-out;
+
+
+ }
+
+ .categories:hover {
+     background-color: rgb(23, 151, 244);
+
+     color: white;
+ }
+
+ .L-internship {
+     background-color: rgba(230, 229, 229, 0.524);
+     height: 1200px;
+ }
+
+ .Intern-card {
+     height: 40vh;
+     ;
+ }
+
+ .Intern-content {
+     background-color: rgb(245, 241, 240);
+ }
+
+ #internships {
+     padding: 30px 0px;
+ }
+
+ .box-content {
+     background-color: rgba(225, 212, 212, 0.31);
+ }
+
+ .courses {
+     background-color: rgba(214, 222, 240, 0.495);
+     height: 300px;
+     padding: 20px 0px;
+ }
+
+ .course-card {
+     height: 70%;
+     width: 60%;
+     background-color: rgb(255, 255, 255);
+ }
+
+ .course-h {
+     font-size: 25px;
+     line-height: 1.33333333;
+     font-weight: 600
+ }
+
+ .footer {
+     background-color: rgba(223, 233, 234, 0.396);
+ }
+
+ .footer-h {
+     border: 2px solid rgb(178, 220, 222);
+     display: inline;
+
+ }
+
+ .drop-nav {
+     display: none;
+ }
+
+ .internship:hover .drop-nav {
+
+     left: 260px;
+     top: 110%;
+     padding: 10px 20px;
+     background-color: rgba(251, 251, 251, 0.5);
+     backdrop-filter: blur(6px);
+ }
+
+ .footH-all {
+     transition: 0.04s ease-in-out;
+
+ }
+
+ .footH-all:hover {
+     color: rgb(56, 134, 243);
+ }
+
+ .Jobs ul li a:hover {
+     list-style: none;
+     color: rgb(56, 134, 243);
+     border-bottom: 2px solid rgb(78, 132, 207);
+ }
+
+ .internship ul li a:hover {
+     list-style: none;
+     color: rgb(56, 134, 243);
+     border-bottom: 2px solid rgb(78, 132, 207);
+ }
+
+ .h-items {
+     list-style: none;
+ }
+
+ .h-items:hover {
+     color: rgb(56, 134, 243);
+     border-bottom: 2px solid rgb(56, 134, 243);
+ }
+
+ .c-card-text {
+     padding: 8px 10px;
+ }
+
+ .c-card-text span {
+     font-size: 10px
+ }
+
+ @media screen and (max-width:1000px) {
+
+     .hero-box {
+         flex-wrap: wrap;
+         align-items: center;
+         justify-content: center;
+     }
+
+     .internship-box {
+         flex-wrap: wrap;
+
+
+     }
+
+     .Intern-content {
+         width: 90%;
+         justify-content: center;
+     }
+
+     .internship-box-m {
+         flex-wrap: wrap;
+     }
+
+     .internship-box a {
+         font-size: 10px;
+         text-align: center;
+     }
+
+     .Intern-card {
+         flex-direction: column;
+     }
+
+     .L-internship {
+         height: auto;
+     }
+
+     #course-contrenr {
+         flex-wrap: wrap;
+         height: auto;
+         align-items: center;
+         justify-content: center;
+     }
+
+     #course-card {
+         width: auto;
+         height: auto;
+         max-width: 40vw;
+     }
+
+     .courses {
+         height: 100%;
+     }
+
+     .header {
+         position: relative;
+         height: auto;
+     }
+
+     .L-header {
+         flex-direction: column;
+         justify-content: flex-start;
+         margin: 10px;
+         padding: 20px;
+         position: absolute;
+         top: 30px;
+         right: 10;
+         font-size: 20px;
+         background-color: white;
+     }
+
+
+ }
+
+
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: Arial, sans-serif;
+ }
+
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+     color: black;
+     padding: 10px 20px;
+ }
+
+ .logo {
+     font-size: 1.5rem;
+ }
+
+ .menu {
+     display: flex;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     color: black;
+ }
+
+ .menu li {
+     margin: 0 15px;
+
+ }
+
+ .menu a {
+     text-decoration: none;
+     color: black;
+ }
+
+ .active {
+     display: block;
+ }
+
+ .hamburger {
+     cursor: pointer;
+     font-size: 1.5rem;
+ }
